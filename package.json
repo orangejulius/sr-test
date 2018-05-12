@@ -1,19 +1,25 @@
 {
   "name": "orangejulius-sr-test",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "testing semantic-release",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/orangejulius/sr-test.git"
+    "url": "https://github.com/orangejulius/sr-test.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/orangejulius/sr-test/issues"
   },
-  "homepage": "https://github.com/orangejulius/sr-test#readme"
+  "homepage": "https://github.com/orangejulius/sr-test#readme",
+  "devDependencies": {
+    "semantic-release": "^15.4.1",
+    "travis-deploy-once": "^5.0.0"
+  }
 }
