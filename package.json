@@ -1,0 +1,19 @@
+{
+  "name": "orangejulius-sr-test",
+  "version": "1.0.0",
+  "description": "testing semantic-release",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orangejulius/sr-test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orangejulius/sr-test/issues"
+  },
+  "homepage": "https://github.com/orangejulius/sr-test#readme"
+}
